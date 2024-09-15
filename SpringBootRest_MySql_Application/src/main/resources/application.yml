@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: SpringBootRest_MySql_App
+  datasource:
+    username: root
+    password: 12345
+    url: jdbc:mysql://localhost:3306/regdbapi1
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
